@@ -18,6 +18,8 @@ namespace Lab_1___Edgar_Santana
                 }
                 Console.WriteLine();
             }
+
+            make_mirror(myArray);
         //    for (int row = 0; row < 2; row++)
         //    {
         //        for(int column = 0; column < 3; column++)
@@ -40,6 +42,35 @@ namespace Lab_1___Edgar_Santana
         //        }
         //        Console.WriteLine();
         //    }
+        }
+
+        public static char[,] make_mirror(char[,] array)
+        {
+            for (int row = 0; row < 4; row++)
+            {
+                for (int column = 0; column < 13; column++)
+                {
+                    if (array[row, column] == '(')
+                    {
+                        array[row, column] = ')';
+                    }
+                    else if (array[row, column] == ')')
+                    {
+                        array[row, column] = '(';
+                    }
+                    else if (array[row, column] == '/')
+                    {
+                        array[row, column] = '\'';
+                    }
+                    else if (array[row,column] == '\'')
+                    {
+                        array[row, column] = '/';
+                    }
+                    Console.Write(array[row, column]);
+                }
+                Console.WriteLine();
+            }
+            return array;
         }
 
         public static char[,] make_forward()
