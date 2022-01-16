@@ -6,36 +6,40 @@ namespace Lab_1___Edgar_Santana
     {
         static void Main(string[] args)
         {
-            char[,] myArray = new char[2, 3];
-            myArray[0, 0] = 'A';
-            myArray[0, 1] = 'B';
-            myArray[0, 2] = 'C';
-            myArray[1, 0] = 'D';
-            myArray[1, 1] = 'E';
-            myArray[1, 2] = 'F';
+            char[,] myArray = new char[4, 13];
 
-            for (int row = 0; row < 2; row++)
+            myArray = make_forward();
+
+            for(int row = 0; row < 4; row++)
             {
-                for(int column = 0; column < 3; column++)
+                for(int column = 0; column < 13; column++)
                 {
                     Console.Write(myArray[row, column]);
                 }
                 Console.WriteLine();
             }
+        //    for (int row = 0; row < 2; row++)
+        //    {
+        //        for(int column = 0; column < 3; column++)
+        //        {
+        //            Console.Write(myArray[row, column]);
+        //        }
+        //        Console.WriteLine();
+        //    }
 
-            char temp = myArray[0, 2];
-            myArray[0, 2] = myArray[0, 0];
-            myArray[0, 0] = temp;
+        //    char temp = myArray[0, 2];
+        //    myArray[0, 2] = myArray[0, 0];
+        //    myArray[0, 0] = temp;
 
-            Console.WriteLine("After Change...");
-            for (int row = 0; row < 2; row++)
-            {
-                for (int column = 0; column < 3; column++)
-                {
-                    Console.Write(myArray[row, column]);
-                }
-                Console.WriteLine();
-            }
+        //    Console.WriteLine("After Change...");
+        //    for (int row = 0; row < 2; row++)
+        //    {
+        //        for (int column = 0; column < 3; column++)
+        //        {
+        //            Console.Write(myArray[row, column]);
+        //        }
+        //        Console.WriteLine();
+        //    }
         }
 
         public static char[,] make_forward()
