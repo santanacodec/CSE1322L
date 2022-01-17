@@ -18,57 +18,78 @@ namespace Lab_1___Edgar_Santana
                 }
                 Console.WriteLine();
             }
-
-            make_mirror(myArray);
-        //    for (int row = 0; row < 2; row++)
-        //    {
-        //        for(int column = 0; column < 3; column++)
-        //        {
-        //            Console.Write(myArray[row, column]);
-        //        }
-        //        Console.WriteLine();
-        //    }
-
-        //    char temp = myArray[0, 2];
-        //    myArray[0, 2] = myArray[0, 0];
-        //    myArray[0, 0] = temp;
-
-        //    Console.WriteLine("After Change...");
-        //    for (int row = 0; row < 2; row++)
-        //    {
-        //        for (int column = 0; column < 3; column++)
-        //        {
-        //            Console.Write(myArray[row, column]);
-        //        }
-        //        Console.WriteLine();
-        //    }
-        }
-
-        public static char[,] make_mirror(char[,] array)
-        {
+            char[,] mirror_array = new char[4, 13];
+            mirror_array = make_mirror(make_forward());
             for (int row = 0; row < 4; row++)
             {
                 for (int column = 0; column < 13; column++)
                 {
-                    if (array[row, column] == '(')
-                    {
-                        array[row, column] = ')';
-                    }
-                    else if (array[row, column] == ')')
-                    {
-                        array[row, column] = '(';
-                    }
-                    else if (array[row, column] == '/')
-                    {
-                        array[row, column] = '\'';
-                    }
-                    else if (array[row,column] == '\'')
-                    {
-                        array[row, column] = '/';
-                    }
-                    Console.Write(array[row, column]);
+                    Console.Write(mirror_array[row, column]);
                 }
                 Console.WriteLine();
+            }
+
+            for (int row = 0; row < 4; row++)
+            {
+                for (int column = 0; column < 13; column++)
+                {
+                    Console.Write(myArray[row, column]);
+                }
+                for (int col = 0; col < 13; col++)
+                {
+                    Console.Write(mirror_array[row, col]);
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public static char[,] make_mirror(char[,] array)
+        {
+            // wasnt able to figure out how to make the for loop stop at halfway point so 
+            // i got help from rpSharp and used a while loop instead.
+            for (int row = 0; row < 4; row++)
+            {
+                int halfTick = 0;
+                int tempCol = 12;
+                while (halfTick < tempCol)
+                {
+                    char temp = array[row, tempCol];
+                    if (array[row, halfTick] == '(')
+                    {
+                        array[row, halfTick] = ')';
+                    }
+                    else if (array[row, halfTick] == ')')
+                    {
+                        array[row, halfTick] = '(';
+                    }
+                    else if (array[row, halfTick] == '/')
+                    {
+                        array[row, halfTick] = '\\';
+                    }
+                    else if (array[row, halfTick] == '\\')
+                    {
+                        array[row, halfTick] = '/';
+                    }
+
+                    if (temp == '(')
+                    {
+                        temp = ')';
+                    } else if (temp == ')')
+                    {
+                        temp = '(';
+                    } else if (temp == '/')
+                    {
+                        temp = '\\';
+                    } else if (temp == '\\')
+                    {
+                        temp = '/';
+                    }
+
+                    array[row, tempCol] = array[row, halfTick];
+                    array[row, halfTick] = temp;
+                    halfTick++;
+                    tempCol--;
+                }
             }
             return array;
         }
