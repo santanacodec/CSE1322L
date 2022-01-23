@@ -40,6 +40,30 @@ namespace Lab_2___Edgar_Santana
             return quantity;
         }
 
+        public void setPrice(double price)
+        {
+            this.price = price;
+            if (price < 0)
+            {
+                throw new Exception("ERROR");
+            }
+        }
+
+        public void setLowerQuantity(int quantity)
+        {
+            this.quantity -= quantity;
+
+            if (quantity < 0)
+            {
+                throw new Exception("ERROR");
+            }
+        }
+
+        public void setHigherQuantity(int quantity)
+        {
+            this.quantity += quantity;
+        }
+
         public override string ToString()
         {
             return "id: " + id + "\ndescription: " + description +
