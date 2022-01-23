@@ -30,6 +30,11 @@ namespace Assignment_1
 
             Console.WriteLine(triangle.ToString() + " and a height of " + 
                 triangle.height());
+
+            Triangle triangle2 = new Triangle();
+
+            Console.WriteLine(triangle2.ToString() + " and a height of " +
+                triangle2.height());
         }
     }
 }
