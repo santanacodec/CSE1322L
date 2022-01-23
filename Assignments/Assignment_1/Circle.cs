@@ -6,5 +6,6 @@ namespace Assignment_1
 {
     class Circle
     {
+        private double radius;
     }
 }
