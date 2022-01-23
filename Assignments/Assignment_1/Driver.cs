@@ -25,6 +25,11 @@ namespace Assignment_1
                         rectangle.perimeter());
                 }
             }
+
+            Triangle triangle = new Triangle(18, 30, 24);
+
+            Console.WriteLine(triangle.ToString() + " and a height of " + 
+                triangle.height());
         }
     }
 }
