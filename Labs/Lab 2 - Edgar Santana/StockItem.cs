@@ -6,6 +6,7 @@ namespace Lab_2___Edgar_Santana
 {
     class StockItem
     {
+        Random rnd = new Random();
         string description;
         static int id;
         double price;
@@ -27,6 +28,7 @@ namespace Lab_2___Edgar_Santana
 
         public int getId()
         {
+            id = rnd.Next();
             return id;
         }
 
@@ -66,8 +68,8 @@ namespace Lab_2___Edgar_Santana
 
         public override string ToString()
         {
-            return "id: " + id + "\ndescription: " + description +
-                "\nprice: " + price + "\nquantity: " + quantity;
+            return "id: " + getId() + "\ndescription: " + description +
+                "\nprice: " + String.Format("{0:0.00}",Math.Round(price, 2)) + "\nquantity: " + quantity;
         }
     }
 }
