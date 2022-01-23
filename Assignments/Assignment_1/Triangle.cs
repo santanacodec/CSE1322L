@@ -41,7 +41,7 @@ namespace Assignment_1
         }
 
      
-        public override string toString()
+        public string toString()
         {
             return "Triangle has sides " + side1 + ", " + side2 + ", " + side3 +
                 ", and has an area of " + area() + " and a perimeter of " +
