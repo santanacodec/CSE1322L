@@ -50,6 +50,10 @@ namespace Lab_3___Edgar_Santana
         public void modify_question()
         {
             int questionNum = 1;
+            int questionToModify;
+            string newQuestion;
+            string newAnswer;
+            int newDifficulty;
 
             Console.WriteLine("These are your quiz questions: ");
 
@@ -58,6 +62,22 @@ namespace Lab_3___Edgar_Santana
                 Console.WriteLine(questionNum + "- " + quizMaker[i].getQuestion());
                 questionNum++;
             }
+
+            Console.WriteLine("Which question do you want to modify?");
+            questionToModify = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("What is your new question?");
+            newQuestion = Console.ReadLine();
+            quizMaker[questionToModify].setQuestion(newQuestion);
+
+            Console.WriteLine("What is your new answer?");
+            newAnswer = Console.ReadLine();
+            quizMaker[questionToModify].setAnswer(newAnswer);
+
+            Console.WriteLine("What is your new difficulty?");
+            newDifficulty = Convert.ToInt32(Console.ReadLine());
+            quizMaker[questionToModify].setDifficulty(newDifficulty);
+
         }
     }
 }
