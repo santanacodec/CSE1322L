@@ -1,0 +1,13 @@
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.csprojAssemblyReference.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.AssemblyInfoInputs.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.AssemblyInfo.cs
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.exe
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.deps.json
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.runtimeconfig.json
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.runtimeconfig.dev.json
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.dll
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.pdb
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.dll
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.pdb
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.genruntimeconfig.cache
