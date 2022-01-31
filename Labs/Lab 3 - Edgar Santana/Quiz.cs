@@ -44,7 +44,7 @@ namespace Lab_3___Edgar_Santana
 
             questionToRemove = Convert.ToInt32(Console.ReadLine());
 
-            quizMaker.Remove(quizMaker[questionToRemove]);
+            quizMaker.Remove(quizMaker[questionToRemove - 1]);
         }
 
         public void modify_question()
@@ -68,16 +68,41 @@ namespace Lab_3___Edgar_Santana
 
             Console.WriteLine("What is your new question?");
             newQuestion = Console.ReadLine();
-            quizMaker[questionToModify].setQuestion(newQuestion);
+            quizMaker[questionToModify - 1].setQuestion(newQuestion);
 
             Console.WriteLine("What is your new answer?");
             newAnswer = Console.ReadLine();
-            quizMaker[questionToModify].setAnswer(newAnswer);
+            quizMaker[questionToModify - 1].setAnswer(newAnswer);
 
             Console.WriteLine("What is your new difficulty?");
             newDifficulty = Convert.ToInt32(Console.ReadLine());
-            quizMaker[questionToModify].setDifficulty(newDifficulty);
+            quizMaker[questionToModify - 1].setDifficulty(newDifficulty);
+        }
 
+        public void give_quiz()
+        {
+            int questionNum = 1;
+            string answer;
+            int score = 0;
+
+            Console.WriteLine("Here is your quiz. Goodluck!");
+
+            for (int i = 0; i < quizMaker.Count; i++)
+            {
+                Console.WriteLine(questionNum + "- " + quizMaker[i].getQuestion());
+                answer = Console.ReadLine();
+
+                if(answer == quizMaker[i].getAnswer())
+                {
+                    score++;
+                } else
+                {
+                    score += 0 ;
+                }
+                questionNum++;
+            }
+
+            Console.WriteLine("you got " + score + " correct");
         }
     }
 }

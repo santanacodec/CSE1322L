@@ -46,11 +46,5 @@ namespace Lab_3___Edgar_Santana
         {
             this.difficulty = difficulty;
         }
-
-        public override string ToString()
-        {
-            return "Question: " + question + "\nAnswer: " + answer +
-                "\nDifficulty: " + difficulty;
-        }
     }
 }
