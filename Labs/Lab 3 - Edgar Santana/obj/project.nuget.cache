@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d+f5hfal7GRpr5XQ6xDTOHfwsM9zlfWxG2CyVtR00nM0AVyhVLVWI1utbNphxbBEiH4dDmBooQb01omR9q6tgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edgar Santana\\Documents\\GitHub\\CSE1322L\\Labs\\Lab 3 - Edgar Santana\\Lab 3 - Edgar Santana.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edgar Santana\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
