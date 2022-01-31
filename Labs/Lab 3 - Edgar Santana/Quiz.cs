@@ -8,7 +8,7 @@ namespace Lab_3___Edgar_Santana
     {
         private List<Question> quizMaker = new List<Question>();
 
-        public void addQuestion()
+        public void add_question()
         {
             string question;
             string answer;
@@ -25,7 +25,39 @@ namespace Lab_3___Edgar_Santana
 
             Question quest = new Question(question, answer, difficulty);
             quizMaker.Add(quest);
+        }
 
+        public void remove_question()
+        {
+            int questionToRemove;
+            int questionNum = 1;
+
+            Console.WriteLine("These are your quiz questions: ");
+
+            for (int i = 0; i < quizMaker.Count; i++)
+            {
+                Console.WriteLine(questionNum + "- " + quizMaker[i].getQuestion());
+                questionNum++;
+            }
+
+            Console.WriteLine("Which question number do you want to remove?");
+
+            questionToRemove = Convert.ToInt32(Console.ReadLine());
+
+            quizMaker.Remove(quizMaker[questionToRemove]);
+        }
+
+        public void modify_question()
+        {
+            int questionNum = 1;
+
+            Console.WriteLine("These are your quiz questions: ");
+
+            for (int i = 0; i < quizMaker.Count; i++)
+            {
+                Console.WriteLine(questionNum + "- " + quizMaker[i].getQuestion());
+                questionNum++;
+            }
         }
     }
 }
