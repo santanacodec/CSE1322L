@@ -48,6 +48,20 @@ namespace Assignment_2
         {
             return alphabets[input];
         }
-        
+
+        public int return_alphabet_index(char input)
+        {
+            return alphabets.IndexOf(input);
+        }
+
+        public char return_symbol(int input)
+        {
+            return symbols[input];
+        }
+
+        public int return_symbol_index(char input)
+        {
+            return symbols.IndexOf(input);
+        }
     }
 }
