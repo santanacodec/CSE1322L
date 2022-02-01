@@ -42,7 +42,12 @@ namespace Assignment_2
             {
                 alphabets.Add(letter);
             }
-        }           
+        } 
+        
+        public char return_alphabet(int input)
+        {
+            return alphabets[input];
+        }
         
     }
 }
