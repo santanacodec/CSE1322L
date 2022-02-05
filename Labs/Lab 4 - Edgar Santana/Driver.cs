@@ -2,7 +2,7 @@
 
 namespace Lab_4___Edgar_Santana
 {
-    class Program
+    class Driver
     {
         static void Main(string[] args)
         {

@@ -7,8 +7,8 @@ namespace Lab_4___Edgar_Santana
     class Account
     {
         Random rnd = new Random();
-        static int accountNumber;
-        double accountBalance;
+        private static int accountNumber;
+        private double accountBalance;
 
         public Account()
         {
@@ -38,7 +38,7 @@ namespace Lab_4___Edgar_Santana
             this.accountBalance = accountBalance;
         }
 
-        public void withdraw(double wAmount)
+        public virtual void withdraw(double wAmount)
         {
             accountBalance -= wAmount;
         }
