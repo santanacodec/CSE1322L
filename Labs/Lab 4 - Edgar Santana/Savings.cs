@@ -35,5 +35,16 @@ namespace Lab_4___Edgar_Santana
                 setAccountBalance(getAccountBalance() - 10);
             }
         }
+
+        public void interest()
+        {
+            double annualInterestRate = 1.5;
+            double monthlyInterestRate = (annualInterestRate / 100) / 12;
+            double monthlyInterest = getAccountBalance() * monthlyInterestRate;
+
+            Console.WriteLine("Customer earned " + monthlyInterest + " in interest.");
+
+            setAccountBalance(getAccountBalance() + monthlyInterest);
+        }
     }
 }
