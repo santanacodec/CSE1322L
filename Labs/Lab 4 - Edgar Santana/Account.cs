@@ -43,7 +43,7 @@ namespace Lab_4___Edgar_Santana
             accountBalance -= wAmount;
         }
 
-        public double deposit(double dAmount)
+        public virtual double deposit(double dAmount)
         {
             return accountBalance + dAmount;
         }
