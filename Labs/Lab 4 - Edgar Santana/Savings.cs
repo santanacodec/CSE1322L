@@ -22,18 +22,17 @@ namespace Lab_4___Edgar_Santana
             }
         }
 
-        public override double deposit(double dAmount)
+        public override void deposit(double dAmount)
         {
             int tick = 0;
-            if (dAmount > dAmount)
-            {
-                tick++;
-                return "This is " + tick + " deposit to this account";
-            } 
+            tick++;
 
-            if (tick > 5)
+            Console.WriteLine("This is deposit " + tick + "to this account.");
+
+            if(tick > 6)
             {
-                return ""
+                Console.WriteLine("Charging a fee of $10");
+                setAccountBalance(getAccountBalance() - 10);
             }
         }
     }
