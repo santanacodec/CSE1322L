@@ -6,7 +6,8 @@ namespace Lab_4___Edgar_Santana
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Checking checking = new Checking(0);
+            Savings savings = new Savings(500);
         }
     }
 }
