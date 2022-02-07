@@ -4,15 +4,48 @@ using System.Collections.Generic;
 namespace Assignment_3
 {
     class Driver
-    {
-        List<Faculty> facultyObjects = new List<Faculty>();
-
+    {       
         static void Main(string[] args)
         {
-            
+            List<Faculty> facultyObjects = new List<Faculty>();
+
+            int choice;
+
+            while(true)
+            {
+                Console.WriteLine("Please choose from the following menu");
+
+                Console.WriteLine("1- Add Faculty");
+                Console.WriteLine("2- Delete Faculty");
+                Console.WriteLine("3- Calculate Faculty Pay");
+                Console.WriteLine("4- Print Faculty");
+                Console.WriteLine("5- Exit");
+                choice = Convert.ToInt32(Console.ReadLine());
+
+                switch(choice)
+                {
+                    case 1:
+                        addFaculty(facultyObjects);
+                        continue;
+                    case 2:
+                        removeFaculty(facultyObjects);
+                        continue;
+                    case 3:
+                        calculateFacultyPay(facultyObjects);
+                        continue;
+                    case 4:
+                        printFaculty(facultyObjects);
+                        continue;
+                    case 5:
+                        break;
+                    default:
+                        Console.WriteLine("Please choose from numbers 1 - 5 from the menue");
+                        break;
+                }
+            }
         } 
 
-        public void addFaculty(List<Faculty> facultyObjects)
+        public static void addFaculty(List<Faculty> facultyObjects)
         {
             Console.WriteLine("Please enter a name: ");
             string name = Console.ReadLine();
@@ -28,7 +61,7 @@ namespace Assignment_3
             facultyObjects.Add(faculty);
         }
 
-        public void removeFaculty(List<Faculty> facultyObjects)
+        public static void removeFaculty(List<Faculty> facultyObjects)
         {
             Console.WriteLine("Please enter a name: ");
             string name = Console.ReadLine();
@@ -42,7 +75,7 @@ namespace Assignment_3
             }
         }
 
-        public void calculateFacultyPay(List<Faculty> facultyObjects)
+        public static void calculateFacultyPay(List<Faculty> facultyObjects)
         {
             for(int i = 0; i < facultyObjects.Count; i++)
             {
@@ -50,7 +83,7 @@ namespace Assignment_3
             }
         }
 
-        public void printFaculty(List<Faculty> facultyObjects)
+        public static void printFaculty(List<Faculty> facultyObjects)
         {
             for(int i = 0; i < facultyObjects.Count; i++)
             {

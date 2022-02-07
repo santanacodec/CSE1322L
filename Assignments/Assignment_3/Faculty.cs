@@ -10,6 +10,8 @@ namespace Assignment_3
         private double weeklyStipend;
         private double weeklyPay;
 
+        public Faculty() { }
+
         public Faculty(string name, double weeklySalary, double weeklyStipend) : base(name)
         {
             this.weeklySalary = weeklySalary;
