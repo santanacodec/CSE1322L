@@ -41,5 +41,13 @@ namespace Assignment_3
                 }
             }
         }
+
+        public void calculateFacultyPay(List<Faculty> facultyObjects)
+        {
+            for(int i = 0; i < facultyObjects.Count; i++)
+            {
+                facultyObjects[i].calculateWeeklyPay();
+            }
+        }
     }
 }
