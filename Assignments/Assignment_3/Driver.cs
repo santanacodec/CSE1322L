@@ -49,5 +49,13 @@ namespace Assignment_3
                 facultyObjects[i].calculateWeeklyPay();
             }
         }
+
+        public void printFaculty(List<Faculty> facultyObjects)
+        {
+            for(int i = 0; i < facultyObjects.Count; i++)
+            {
+                Console.WriteLine(facultyObjects[i]);
+            }
+        }
     }
 }
