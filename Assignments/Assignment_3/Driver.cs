@@ -27,5 +27,19 @@ namespace Assignment_3
 
             facultyObjects.Add(faculty);
         }
+
+        public void removeFaculty(List<Faculty> facultyObjects)
+        {
+            Console.WriteLine("Please enter a name: ");
+            string name = Console.ReadLine();
+
+            for (int i = 0; i < facultyObjects.Count; i++)
+            {
+                if(name == facultyObjects[i].getName())
+                {
+                    facultyObjects.RemoveAt(i);
+                }
+            }
+        }
     }
 }
