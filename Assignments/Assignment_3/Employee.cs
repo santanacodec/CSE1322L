@@ -51,5 +51,10 @@ namespace Assignment_3
         {
             numberOfEmployees--;
         }
+
+        public override string ToString()
+        {
+            return "Name: " + name + "\nEmployeeID: " + employeeID;
+        }
     }
 }
