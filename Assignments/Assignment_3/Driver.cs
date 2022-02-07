@@ -87,7 +87,7 @@ namespace Assignment_3
         {
             for(int i = 0; i < facultyObjects.Count; i++)
             {
-                Console.WriteLine(facultyObjects[i]);
+                Console.WriteLine(facultyObjects[i].ToString());
             }
         }
     }
