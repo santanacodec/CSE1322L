@@ -27,7 +27,7 @@ namespace Lab_5___Edgar_Santana
             this.title = title;
         }
 
-        public abstract void getListing();
+        public abstract string getListing();
 
         public override string ToString()
         {
