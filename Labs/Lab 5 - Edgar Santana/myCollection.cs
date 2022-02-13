@@ -2,7 +2,7 @@
 
 namespace Lab_5___Edgar_Santana
 {
-    class Program
+    class myCollection
     {
         static void Main(string[] args)
         {
