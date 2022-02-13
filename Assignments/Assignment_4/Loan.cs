@@ -87,5 +87,23 @@ namespace Assignment_4
         {
             this.numberOfMonthlyPayments = numberOfMonthlyPayments;
         }
+
+        public static int decreaseNumberOfLoans()
+        {
+            return numberOfLoans--;
+        }
+
+        public void calculateMonthlyPayment()
+        {
+            monthlyPayment = (interestRate * (loanBalance)) / 
+                (1 - Math.Pow((1 + interestRate), -numberOfMonthlyPayments));
+        }
+
+        public override string ToString()
+        {
+            return "Customer Name: " + customerName + "\nAccountNumber: " + accountNumber +
+                "\nLoan Balance: " + loanBalance + "\nMonthly Payment: " + monthlyPayment +
+                "\nInterest Rate: " + interestRate + "\nNumber of Monthly Payments: " + numberOfMonthlyPayments;
+        }
     }
 }
