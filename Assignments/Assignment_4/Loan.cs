@@ -27,5 +27,65 @@ namespace Assignment_4
         {
             return numberOfLoans;
         }
+
+        public string getCustomerName()
+        {
+            return customerName;
+        }
+
+        public int getAccountNumber()
+        {
+            return accountNumber;
+        }
+
+        public double getLoanBalance()
+        {
+            return loanBalance;
+        }
+
+        public double getMonthlyPayment()
+        {
+            return monthlyPayment;
+        }
+
+        public double getInterestRate()
+        {
+            return interestRate;
+        }
+
+        public int getNumberOfMonthlyPayments()
+        {
+            return numberOfMonthlyPayments;
+        }
+
+        public void setCustomerName(string customerName)
+        {
+            this.customerName = customerName;
+        }
+
+        public void setAccountNumber(int accountNumber)
+        {
+            this.accountNumber = accountNumber;
+        }
+
+        public void setLoanBalance(double loanBalance)
+        {
+            this.loanBalance = loanBalance;
+        }
+
+        public void setMonthlyPayment(double monthlyPayment)
+        {
+            this.monthlyPayment = monthlyPayment;
+        }
+
+        public void setInterestRate(double interestRate)
+        {
+            this.interestRate = interestRate;
+        }
+
+        public void setNumberOfMonthlyPayments(int numberOfMonthlyPayments)
+        {
+            this.numberOfMonthlyPayments = numberOfMonthlyPayments;
+        }
     }
 }
