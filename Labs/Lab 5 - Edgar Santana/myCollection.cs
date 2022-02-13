@@ -6,7 +6,7 @@ namespace Lab_5___Edgar_Santana
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Item[] itemArray = new Item[5];
         }
     }
 }
