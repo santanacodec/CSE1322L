@@ -6,22 +6,12 @@ namespace Assignment_4
 {
     class StudentLoan : Loan
     {
-        private bool isDeferred;
+        private bool isDeferred { get; set; }
 
         public StudentLoan(string name, double amount, double rate, int months, bool isDef) : 
             base(name, amount, rate, months)
         {
             this.isDeferred = isDef;
-        }
-
-        public bool getIsDeferred()
-        {
-            return isDeferred;
-        }
-
-        public void setIsDeferred(bool isDeferred)
-        {
-            this.isDeferred = isDeferred;
         }
 
         public override void calculateMonthlyPayment()
