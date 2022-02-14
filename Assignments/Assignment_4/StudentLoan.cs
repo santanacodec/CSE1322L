@@ -23,5 +23,26 @@ namespace Assignment_4
         {
             this.isDeferred = isDeferred;
         }
+
+        public override void calculateMonthlyPayment()
+        {
+            double monthlyPayment;
+            if(isDeferred == true)
+            {
+                monthlyPayment = 0;
+                setMonthlyPayment(monthlyPayment);
+            }
+            else if(isDeferred == false)
+            {
+                monthlyPayment = (getInterestRate() * (getLoanBalance())) / 
+                    (1 - Math.Pow((1 + getInterestRate()), -getNumberOfMonthlyPayments()));
+                setMonthlyPayment(monthlyPayment);
+            }
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + "\nIs Deferred: " + isDeferred;
+        }
     }
 }

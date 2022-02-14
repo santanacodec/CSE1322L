@@ -93,7 +93,7 @@ namespace Assignment_4
             return numberOfLoans--;
         }
 
-        public void calculateMonthlyPayment()
+        public virtual void calculateMonthlyPayment()
         {
             monthlyPayment = (interestRate * (loanBalance)) / 
                 (1 - Math.Pow((1 + interestRate), -numberOfMonthlyPayments));
