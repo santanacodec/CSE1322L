@@ -8,6 +8,42 @@ namespace Assignment_4
         static void Main(string[] args)
         {
             List<Loan> loanObjects = new List<Loan>();
+
+            while(true)
+            {
+                Console.WriteLine("What would you like to do?");
+
+                Console.WriteLine("1- Add Loan");
+                Console.WriteLine("2- Delete Loan");
+                Console.WriteLine("3- Calculate Monthly Payments");
+                Console.WriteLine("4- Print Loans");
+                Console.WriteLine("5- Exit");
+
+                int choice = Convert.ToInt32(Console.ReadLine());
+
+                switch(choice)
+                {
+                    case 1:
+                        addLoan(loanObjects);
+                        continue;
+                    case 2:
+                        deleteLoan(loanObjects);
+                        continue;
+                    case 3:
+                        calculateMonthlyLoanPayment(loanObjects);
+                        continue;
+                    case 4:
+                        printLoans(loanObjects);
+                        continue;
+                    case 5:
+                        break;
+                }
+
+                if (choice != 1 || choice != 2 || choice != 3 || choice != 4 || choice != 5) 
+                {
+                    Console.WriteLine("ERROR: Please enter a valid input");
+                }
+            }
         }
 
         public static void addLoan(List<Loan> loanObjects)
