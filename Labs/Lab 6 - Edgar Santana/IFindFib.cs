@@ -4,11 +4,8 @@ using System.Text;
 
 namespace Lab_6___Edgar_Santana
 {
-    interface FindFib
+    interface IFindFib
     {
-        public int calculate_fib(int n)
-        {
-            return n;
-        }
+        int calculate_fib(int n);
     }
 }
