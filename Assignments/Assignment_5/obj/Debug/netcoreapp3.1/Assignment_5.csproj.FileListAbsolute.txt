@@ -1,0 +1,14 @@
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\bin\Debug\netcoreapp3.1\Assignment_5.exe
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\bin\Debug\netcoreapp3.1\Assignment_5.deps.json
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\bin\Debug\netcoreapp3.1\Assignment_5.runtimeconfig.json
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\bin\Debug\netcoreapp3.1\Assignment_5.runtimeconfig.dev.json
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\bin\Debug\netcoreapp3.1\Assignment_5.dll
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\bin\Debug\netcoreapp3.1\Assignment_5.pdb
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\obj\Debug\netcoreapp3.1\Assignment_5.csproj.AssemblyReference.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\obj\Debug\netcoreapp3.1\Assignment_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\obj\Debug\netcoreapp3.1\Assignment_5.AssemblyInfoInputs.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\obj\Debug\netcoreapp3.1\Assignment_5.AssemblyInfo.cs
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\obj\Debug\netcoreapp3.1\Assignment_5.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\obj\Debug\netcoreapp3.1\Assignment_5.dll
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\obj\Debug\netcoreapp3.1\Assignment_5.pdb
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_5\obj\Debug\netcoreapp3.1\Assignment_5.genruntimeconfig.cache

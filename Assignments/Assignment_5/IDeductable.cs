@@ -6,7 +6,7 @@ namespace Assignment_5
 {
     interface IDeductable
     {
-        abstract bool hasMetDeductible();
-        abstract bool hasMetTotalOutOfPocket();
+        bool hasMetDeductible();
+        bool hasMetTotalOutOfPocket();
     }
 }
