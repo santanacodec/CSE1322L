@@ -1,0 +1,10 @@
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\bin\Debug\Lab 8 - Edgar Santana.exe.config
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\bin\Debug\Lab 8 - Edgar Santana.exe
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\bin\Debug\Lab 8 - Edgar Santana.pdb
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\obj\Debug\Lab 8 - Edgar Santana.csproj.AssemblyReference.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\obj\Debug\Lab_8___Edgar_Santana.Properties.Resources.resources
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\obj\Debug\Lab 8 - Edgar Santana.csproj.GenerateResource.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\obj\Debug\Lab 8 - Edgar Santana.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\obj\Debug\Lab 8 - Edgar Santana.exe
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\obj\Debug\Lab 8 - Edgar Santana.pdb
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 8 - Edgar Santana\obj\Debug\Lab_8___Edgar_Santana.Form1.resources
