@@ -1,0 +1,9 @@
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_7\bin\Debug\Assignment_7.exe.config
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_7\bin\Debug\Assignment_7.exe
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_7\bin\Debug\Assignment_7.pdb
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_7\obj\Debug\Assignment_7.csproj.AssemblyReference.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_7\obj\Debug\Assignment_7.Properties.Resources.resources
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_7\obj\Debug\Assignment_7.csproj.GenerateResource.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_7\obj\Debug\Assignment_7.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_7\obj\Debug\Assignment_7.exe
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Assignments\Assignment_7\obj\Debug\Assignment_7.pdb
