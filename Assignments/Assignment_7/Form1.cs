@@ -19,19 +19,34 @@ namespace Assignment_7
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double loanAmount;
+            double P;
+            double interest = comboBox1.SelectedIndex;
             if (radioButton1.Checked == true)
             {
-                loanAmount = 0.00;
-                label5.Text = loanAmount.ToString() ;
+                P = 0.00;
+                label5.Text = P.ToString() ;
             }
             else if (radioButton2.Checked == true)
             {
                 if (checkBox1.Checked == true)
                 {
-
+                    interest = Convert.ToDouble(comboBox1.SelectedIndex) - .0025;
                 }
+
+                else if (checkBox2.Checked == true)
+                {
+                    interest = Convert.ToDouble(comboBox1.SelectedIndex) - .0025;
+                }
+                else if (checkBox1.Checked == true && checkBox2.Checked == true)
+                {
+                    interest = Convert.ToDouble(comboBox1.Items) - .0050;
+                }
+
+                P = interest * Double.Parse(textBox1.Text) /
+                    1 - Math.Pow((1 + interest), - listBox1.SelectedIndex);
+                label5.Text = P.ToString();
             }
+            
         }
     }
 }
