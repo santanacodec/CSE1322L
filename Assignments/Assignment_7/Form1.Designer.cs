@@ -114,6 +114,17 @@ namespace Assignment_7
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "3.00",
+            "3.50",
+            "4.00",
+            "4.50",
+            "5.00",
+            "5.50",
+            "6.00",
+            "6.50",
+            "7.00",
+            "7.50"});
             this.comboBox1.Location = new System.Drawing.Point(142, 251);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -209,6 +220,7 @@ namespace Assignment_7
             this.button1.TabIndex = 10;
             this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
