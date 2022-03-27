@@ -26,13 +26,13 @@ namespace Lab_9a___Edgar_Santana
                 switch(choice)
                 {
                     case 1:
-                        Console.WriteLine(recursive_multiply(a, b));
+                        Console.WriteLine("answer: " + recursive_multiply(a, b));
                         continue;
                     case 2:
-                        Console.WriteLine(recursive_div(a, b));
+                        Console.WriteLine("answer: " + recursive_div(a, b));
                         continue;
                     case 3:
-                        Console.WriteLine(recursive_mod(a, b));
+                        Console.WriteLine("answer: " + recursive_mod(a, b));
                         continue;
                     case 0:
                         Environment.Exit(0);
