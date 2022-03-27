@@ -27,5 +27,43 @@ namespace Lab_9a___Edgar_Santana
             }
             return answer;
         }
+
+        public int recursive_div(int a, int b)
+        {
+            int answer;
+            
+            if(a < b)
+            {
+                answer = 0;
+            }
+            else if (a == b)
+            {
+                answer = 1;
+            }
+            else
+            {
+                answer = 1 + recursive_div(a - b, b);
+            }
+            return answer;
+        }
+
+        public int recursive_mod(int a, int b)
+        {
+            int answer;
+
+            if (a < b)
+            {
+                answer = a;
+            }
+            else if (a == b)
+            {
+                answer = 0;
+            }
+            else
+            {
+                answer = recursive_mod(a - b, b);
+            }
+            return answer;
+        }
     }
 }
