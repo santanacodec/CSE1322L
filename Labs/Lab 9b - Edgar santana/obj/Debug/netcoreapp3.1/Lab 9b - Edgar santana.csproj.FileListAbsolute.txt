@@ -1,0 +1,14 @@
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\bin\Debug\netcoreapp3.1\Lab 9b - Edgar santana.exe
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\bin\Debug\netcoreapp3.1\Lab 9b - Edgar santana.deps.json
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\bin\Debug\netcoreapp3.1\Lab 9b - Edgar santana.runtimeconfig.json
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\bin\Debug\netcoreapp3.1\Lab 9b - Edgar santana.runtimeconfig.dev.json
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\bin\Debug\netcoreapp3.1\Lab 9b - Edgar santana.dll
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\bin\Debug\netcoreapp3.1\Lab 9b - Edgar santana.pdb
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\obj\Debug\netcoreapp3.1\Lab 9b - Edgar santana.csproj.AssemblyReference.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\obj\Debug\netcoreapp3.1\Lab 9b - Edgar santana.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\obj\Debug\netcoreapp3.1\Lab 9b - Edgar santana.AssemblyInfoInputs.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\obj\Debug\netcoreapp3.1\Lab 9b - Edgar santana.AssemblyInfo.cs
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\obj\Debug\netcoreapp3.1\Lab 9b - Edgar santana.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\obj\Debug\netcoreapp3.1\Lab 9b - Edgar santana.dll
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\obj\Debug\netcoreapp3.1\Lab 9b - Edgar santana.pdb
+C:\Users\Edgar Santana\Documents\GitHub\CSE1322L\Labs\Lab 9b - Edgar santana\obj\Debug\netcoreapp3.1\Lab 9b - Edgar santana.genruntimeconfig.cache
