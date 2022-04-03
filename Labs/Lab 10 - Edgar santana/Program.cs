@@ -8,7 +8,20 @@ namespace Lab_10___Edgar_santana
     {
         static void Main(string[] args)
         {
-            int a
+            string time1;
+            string time2;
+
+            Console.WriteLine("Enter time 1 in 24hr format as follows (HH:MM:SS)");
+            time1 = Console.ReadLine();
+            format(time1);
+
+            Console.WriteLine("Enter time 2 in 24hr format as follows (HH:MM:SS)");
+            time2 = Console.ReadLine();
+            format(time2);
+
+            Console.WriteLine("Difference in seconds: " + (format(time1) - format(time2)));
+
+
         }
 
         public static int format(string s)
